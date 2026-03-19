@@ -38,7 +38,7 @@ export default function Home() {
               About
             </a>
             <a
-              href="#"
+              href="#servers"
               className="rounded-md px-3 py-2 text-sm font-medium text-gray-400 hover:text-white transition"
             >
               Servers
@@ -50,8 +50,7 @@ export default function Home() {
       {/* HERO SECTION */}
       <main
         className="relative min-h-screen w-full flex flex-col items-center justify-center text-center px-4 overflow-hidden border-b border-white/5
-        bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] 
-        bg-[size:32px_32px]"
+        bg-[linear-gradient(to_right,#10b98126_1px,transparent_1px),linear-gradient(to_bottom,#10b98126_1px,transparent_1px)] bg-[size:40px_40px]"
       >
         <div className="absolute inset-0 bg-[radial-gradient(circle_600px_at_50%_50%,#064e3b,transparent)] opacity-40 pointer-events-none" />
 
@@ -176,6 +175,98 @@ export default function Home() {
                 community and regularly update our server with new features,
                 optimizations, and bug fixes to ensure the best possible gaming
                 experience.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="servers" className="py-24 px-4 bg-gray-950">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-16">
+            {" "}
+            <h2 className="text-3xl md:text-5xl font-bold text-white mb-8 tracking-tight">
+              Our Servers
+            </h2>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-8 text-left">
+            <div className="bg-white/5 p-8 rounded-2xl border border-white/5 hover:border-emerald-500/30 transition-colors group">
+              <div className="relative aspect-square w-full overflow-hidden rounded-xl border border-white/10 mb-6">
+                <Image
+                  src="/lobby.png"
+                  alt="KernelCraft Lobby"
+                  fill
+                  className="object-cover transition-transform duration-500 group-hover:scale-110"
+                />
+              </div>
+
+              <h3 className="text-white font-bold text-xl mb-3 underline decoration-emerald-500/50 underline-offset-4">
+                The Main Lobby
+              </h3>
+              <p className="text-slate-400 leading-relaxed">
+                This is the home of KernelCraft! As we speak, it is being
+                rebuilt with a city theme. This is where you can hang out, or
+                choose to go to another server.
+              </p>
+            </div>
+            <div className="bg-white/5 p-8 rounded-2xl border border-white/5 hover:border-emerald-500/30 transition-colors group">
+              <div className="relative aspect-square w-full overflow-hidden rounded-xl border border-white/10 mb-6">
+                <Image
+                  src="/psurvival.png"
+                  alt="Public Survival"
+                  fill
+                  className="object-cover transition-transform duration-500 group-hover:scale-110"
+                />
+              </div>
+
+              <h3 className="text-white font-bold text-xl mb-3 underline decoration-emerald-500/50 underline-offset-4">
+                Public SMP
+              </h3>
+              <p className="text-slate-400 leading-relaxed">
+                Our flagship survival experience. Dive into a massive
+                multiplayer world enhanced by custom-built quality-of-life
+                plugins that expand on the vanilla spirit without breaking it.
+              </p>
+            </div>
+            <div className="bg-white/5 p-8 rounded-2xl border border-white/5 hover:border-emerald-500/30 transition-colors group">
+              <div className="relative aspect-square w-full overflow-hidden rounded-xl border border-white/10 mb-6">
+                <Image
+                  src="/pvp.png"
+                  alt="PVP"
+                  fill
+                  className="object-cover transition-transform duration-500 group-hover:scale-110"
+                />
+              </div>
+
+              <h3 className="text-white font-bold text-xl mb-3 underline decoration-emerald-500/50 underline-offset-4">
+                PVP
+              </h3>
+              <p className="text-slate-400 leading-relaxed">
+                Test your skills in high-stakes combat. Face off against other
+                players using KernelKit, our robust custom dueling system.
+                Choose your loadout and dominate in a variety of custom-built
+                arenas. <strong>(FEATURES ACHIVEMENTS)</strong>
+              </p>
+            </div>
+
+            <div className="bg-white/5 p-8 rounded-2xl border border-white/5 hover:border-emerald-500/30 transition-colors group">
+              <div className="relative aspect-square w-full overflow-hidden rounded-xl border border-white/10 mb-6">
+                <Image
+                  src="/slobby.png"
+                  alt="Survival Lobby"
+                  fill
+                  className="object-cover transition-transform duration-500 group-hover:scale-110"
+                />
+              </div>
+
+              <h3 className="text-white font-bold text-xl mb-3 underline decoration-emerald-500/50 underline-offset-4">
+                Survival Lobby
+              </h3>
+              <p className="text-slate-400 leading-relaxed">
+                The dedicated entry point for our survival servers. Use this
+                space to access the SMP or coordinate with other players before
+                jumping into the world.
               </p>
             </div>
           </div>
